@@ -34,7 +34,7 @@ function chunk2(array, size) {
     return chunked
 }
 
-//soltuin3
+//solution 3
 //array.slice(start, end) it copies array from start index until(not including) end index
 
 function chunk3(array, size) {
