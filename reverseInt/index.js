@@ -40,6 +40,7 @@ function reverseInt(n) {
 
 //2nd try
 function reverseInt2(n) {
-    const reverse = n.split('').reverse().join('')
+    const reverse = n.toString().split('').reverse().join('')
     return parseInt(reverse) * Math.sign(n) //if n>=0 it returns 1 otherwise -1
 }
+
