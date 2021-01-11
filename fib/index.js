@@ -46,7 +46,7 @@ function memoize(fn) {
         return cache[args];
       }
   
-      const result = fn.apply(this, args);
+      const result = fn.apply(this, args); //here I called slowfib function but with the argument(n in this case) which hasnt been called before thats why we use applu
       cache[args] = result;
   
       return result;
