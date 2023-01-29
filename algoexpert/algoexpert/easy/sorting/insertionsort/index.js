@@ -25,4 +25,3 @@ function swap(i, j, array) {
   array[i] = temp;
 }
 
-exports.insertionSort = insertionSort;
